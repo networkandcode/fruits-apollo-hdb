@@ -7,7 +7,6 @@ import resolvers from './resolvers.js';
 import HdbApi from './datasource.js';
 
 dotenv.config();
-console.log(process.env)
 
 const server = new ApolloServer({
   typeDefs,
